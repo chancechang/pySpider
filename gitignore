@@ -1,3 +1,19 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# My configurations:
+db.ini
+deploy_key_rsa
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -24,8 +40,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-*.docx
-*.xlsx
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -103,3 +118,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.xlsx
+.docx
